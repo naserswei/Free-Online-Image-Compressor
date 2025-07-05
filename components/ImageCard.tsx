@@ -61,8 +61,17 @@ function ImageCard({
       ) : (
         <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center">
           <div className="text-center">
-            <ImageIcon className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-            <p className="text-gray-500 font-medium">No image selected</p>
+            {type === "original" ? (
+              <>
+                <ImageIcon className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+                <p className="text-gray-500 font-medium">No image selected</p>
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+                <p className="text-gray-500 font-medium">Compressed Image</p>
+              </>
+            )}
           </div>
         </div>
       )}
