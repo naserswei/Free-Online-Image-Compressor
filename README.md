@@ -1,6 +1,6 @@
-# Image Resizing Web Application
+# Image Compressor Web Application
 
-This project is a web application built with Next.js that allows users to easily resize and optimize images. It provides a user-friendly interface for uploading images and adjusting their dimensions, making it ideal for web developers, content creators, and anyone needing to prepare images for various platforms.
+This project is a web application built with Next.js that allows users to easily compress and optimize images. It provides a user-friendly interface for uploading images and reducing their file sizes, making it ideal for web developers, content creators, and anyone needing to prepare images for various platforms.
 
 ## ✨ Features
 
@@ -25,8 +25,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/resizing_images_test.git
-   cd resizing_images_test
+   git clone https://github.com/naserswei/Free-Online-Image-Compressor
+   cd Free-Online-Image-Compressor
    ```
 
 2. Install dependencies:
@@ -60,7 +60,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ## 📂 Project Structure
 
 ```
-resizing_images_test/
+Free-Online-Image-Compressor/
 ├── app/                  # Next.js application routes and layout
 │   ├── favicon.ico
 │   ├── globals.css
@@ -105,4 +105,4 @@ If you have any questions, feel free to reach out.
 
 --- naserswei.dev@gmail.com
 
-**Note**: This README assumes the project is a public repository on GitHub. Remember to replace `https://github.com/your-username/resizing_images_test.git` with your actual repository URL.
+**Note**: This README assumes the project is a public repository on GitHub. Remember to replace `https://github.com/naserswei/Free-Online-Image-Compressor` with your actual repository URL.
